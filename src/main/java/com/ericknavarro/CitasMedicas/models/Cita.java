@@ -34,7 +34,7 @@ public class Cita {
     private String nombreDoctor;
     
     @Column(length = 30)
-    private String nombrePasiente;
+    private String nombrePaciente;
     
     @Temporal(TemporalType.TIMESTAMP)
     private Date fecha;

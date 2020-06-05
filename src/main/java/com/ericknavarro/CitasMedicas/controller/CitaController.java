@@ -47,7 +47,7 @@ public class CitaController {
     }
     
     @PostMapping("/crear")
-    public ResponseEntity<Cita> creteCita(@RequestBody Cita cita){
+    public ResponseEntity<Cita> createCita(@RequestBody Cita cita){
         return new ResponseEntity<>(service.createCita(cita), HttpStatus.OK);
     }
     

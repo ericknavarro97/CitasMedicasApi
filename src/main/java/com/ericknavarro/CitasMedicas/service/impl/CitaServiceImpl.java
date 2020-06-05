@@ -45,7 +45,7 @@ public class CitaServiceImpl implements CitaService{
         Cita citaDB = findCitaById(id);
         
         citaDB.setNombreDoctor(cita.getNombreDoctor());
-        citaDB.setNombrePasiente(cita.getNombrePasiente());
+        citaDB.setNombrePaciente(cita.getNombrePaciente());
         citaDB.setFecha(new Date());
         
         createCita(cita);
